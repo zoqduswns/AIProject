@@ -1,4 +1,7 @@
-1. **개요**
+# 자연어 SQL 질의 AI Agent
+
+
+## **개요**
 ---
 비즈니스 사용자나 SQL에 익숙하지 않은 현업 담당자가 자연어로 데이터를 요청하면
 Azure OpenAI를 활용해 SQL 쿼리를 자동 생성하고, Azure SQL Database에서 데이터를 조회하여 보고서 형태로 시각화 및 다운로드할 수 있도록 도움을 줌
@@ -9,14 +12,14 @@ Azure OpenAI를 활용해 SQL 쿼리를 자동 생성하고, Azure SQL Database�
 * 결과 CSV 다운로드
 * 세션 초기화 및 업로드된 파일 삭제 기능
 
-2. **사용한 Azure 서비스**
+## **사용한 Azure 서비스**
 ---
 * Azure Blob Storage	업로드된 CSV 파일을 저장
 * Azure SQL Database	CSV 데이터를 테이블로 저장하고 쿼리 실행
 * Azure OpenAI	자연어 질의를 SQL 쿼리로 변환
 
 
-3. **전체적인 AI 흐름도**
+## **전체적인 AI 흐름도**
 ---
 ```mermaid
 graph LR
@@ -28,7 +31,7 @@ graph LR
     F --> G[Streamlit에서 결과 시각화 및 다운로드]
 ```
 
-4. **해당 AI 사용의 기대 효과**
+## **해당 AI 사용의 기대 효과**
 ---
 |항목|기대 효과|
 |---|---|
