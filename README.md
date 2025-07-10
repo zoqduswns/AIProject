@@ -18,8 +18,15 @@ Azure OpenAI를 활용해 SQL 쿼리를 자동 생성하고, Azure SQL Database�
 
 3. **전체적인 AI 흐름도**
 ---
-![Mermaid-preview](https://github.com/user-attachments/assets/f625a6ee-f0f8-4457-be7f-9ebcbd437f66)
-
+```mermaid
+graph LR
+    A[CSV 파일 업로드] --> B[Blob Storage 저장]
+    B --> C[Azure SQL 저장]
+    C --> D[자연어 질의 입력]
+    D --> E[Azure OpenAI로 SQL 생성]
+    E --> F[SQL 실행 및 결과 조회]
+    F --> G[Streamlit에서 결과 시각화 및 다운로드]
+```
 
 4. **해당 AI 사용의 기대 효과**
 ---
