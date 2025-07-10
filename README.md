@@ -1,6 +1,6 @@
 1. **개요**
 ---
-이 Streamlit 애플리케이션은 비즈니스 사용자나 SQL에 익숙하지 않은 현업 담당자가 자연어로 데이터를 요청하면
+비즈니스 사용자나 SQL에 익숙하지 않은 현업 담당자가 자연어로 데이터를 요청하면
 Azure OpenAI를 활용해 SQL 쿼리를 자동 생성하고, Azure SQL Database에서 데이터를 조회하여 보고서 형태로 시각화 및 다운로드할 수 있도록 도움을 줌
 * CSV 파일 업로드 및 Azure Blob Storage 저장
 * 업로드된 데이터를 Azure SQL Database에 테이블로 저장
@@ -33,3 +33,8 @@ Azure OpenAI를 활용해 SQL 쿼리를 자동 생성하고, Azure SQL Database�
 
 
 https://user09-web-001.azurewebsites.net/
+
+tc
+1) 학생별로 과목별 평균 점수를 보여줘.
+2) 학년별로 평균 점수가 가장 높은 과목은 뭐야?
+3) 각 반(Class)별 평균 점수를 계산해서 높은 순으로 정렬해서 보여줘.
