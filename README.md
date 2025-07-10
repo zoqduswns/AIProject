@@ -14,7 +14,8 @@ Azure OpenAI를 활용해 SQL 쿼리를 자동 생성하고, Azure SQL Database�
 * Azure OpenAI	자연어 질의를 SQL 쿼리로 변환
 ---
 3. 전체적인 AI 흐름도
-![Mermaid-preview](https://github.com/user-attachments/assets/50d03c93-eb6a-475b-bbc1-6d9ae0aee355)
+![Mermaid-preview](https://github.com/user-attachments/assets/f625a6ee-f0f8-4457-be7f-9ebcbd437f66)
+
 ---
 5. 해당 AI 사용의 기대 효과
 |항목|기대 효과|
